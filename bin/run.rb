@@ -23,7 +23,7 @@ class Run
              puts
              puts 'Podaj cene...'
              price = gets.chomp
-             @manager.addBook(title, author, release_year, price)
+             @manager.addRent(title, author, release_year, price)
            when '2'
              puts
              puts 'Ktora ksiazke chcesz usunac? Podaj id: '

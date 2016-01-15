@@ -1,6 +1,7 @@
-require_relative '../lib/book'
-require_relative '../lib/menu'
-require_relative '../lib/manager'
+require_relative '../bin/book'
+require_relative '../bin/menu'
+require_relative '../bin/manager'
+require_relative '../bin/rent'
 
 require 'rspec'
 require 'simplecov'
